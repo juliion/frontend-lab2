@@ -1,0 +1,101 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 10px;
+}
+
+td {
+    border: 1px solid black;
+    height: 40px;
+    width: 200px;
+}
+
+.row1 {
+    background-color: #518f8f;
+    color:#f9f9f9;
+    transition: 1s;
+}
+
+.row1:hover {
+    background-color: #8C6650;
+    transition: 1s;
+}
+
+.row2 {
+    background-color: #f5f551;
+    color:#000000;
+    transition: 1s;
+}
+
+.row2:hover {
+    background-color: #A352F7;
+    transition: 1s;
+}
+
+.traffic_light_positon, .traffic_light_transform {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #d8d6d6;
+    width: 70px;
+    height: 155px;
+}
+
+.light-circle {
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #db3434;
+}
+
+.yellow {
+    background-color: #f9f10a;
+}
+
+.green {
+    background-color: #44812c;
+}
+
+.traffic_light_positon {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+}
+
+.traffic_light_positon > .red {
+    position: relative;
+    top: 9px;
+    left: 15px;
+}
+
+.traffic_light_positon > .yellow {
+    position: relative;
+    top: 14px;
+    left: 15px;
+}
+
+.traffic_light_positon > .green{
+    position: relative;
+    top: 19px;
+    left: 15px;
+}
+
+.traffic_light_transform {
+    transform: translate(200px, 55px);
+}
+
+.traffic_light_transform > .red {
+    transform: translate(15px, 9px)
+}
+
+.traffic_light_transform > .yellow {
+    transform: translate(15px, 14px)
+}
+
+.traffic_light_transform > .green {
+    transform: translate(15px, 19px)
+}
